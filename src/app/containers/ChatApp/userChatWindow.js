@@ -40,10 +40,12 @@ function UserChatWindow() {
       const index = posts.length - 1;
       addMessagesToDom(posts[index], messagesListEle, 0.1, 120);
     }
-  }, [posts, message]);
+    //eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [posts]);
 
   useEffect(() => {
-    if (posts?.length && posts[0]?.userId === selectedUser?.id) loadMessages();
+    if (posts[0]?.userId === selectedUser?.id) posts?.length && loadMessages();
+    else setMessage(null);
   }, [selectedUser, posts, loadMessages]);
 
   const sendMessage = () => {

@@ -25,9 +25,6 @@ const RootDiv = styled.div`
     rgb(21 23 78) 60%,
     rgb(43 45 170) 100%
   );
-  button {
-    background-color: #0b9fe5;
-  }
 `;
 
 const ChatScreen = styled.div`

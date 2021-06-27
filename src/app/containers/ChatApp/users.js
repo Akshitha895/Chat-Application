@@ -131,6 +131,9 @@ const UserListDiv = styled.div`
   width: 30%;
   color: #103195;
   border-right: 1px solid grey;
+  button {
+    background-color: #0b9fe5;
+  }
 
   #user-heading {
     padding: 20px;
