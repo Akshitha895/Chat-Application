@@ -1,3 +1,7 @@
+# This Application is deployed using github-pages
+
+https://akshitha895.github.io/chat-application/#/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
